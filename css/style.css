@@ -1,0 +1,273 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FEFAE0;
+}
+
+nav {
+    background-color: #E0E5B6;
+    border-bottom: 2px dotted blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 18px;
+    height: 30px;
+}
+
+.splash {
+    height: 50vh;
+    width: 140vh;
+    background-color: #FAEDCE; /* Light Peach */
+    color: black;
+    
+    text-align: center;
+    border-radius: 20px;
+    border-color: transparent;
+    margin-left: 175px;
+}
+
+hr {
+    border: 0;
+    border-style: dashed;
+    border-width:2px;
+    color: #CCD5AE; /* Light Olive Green */
+}
+h1 {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: brown;
+}
+
+.splash img {
+    border-color: black;
+    border-style: groove;
+    border-radius: 20px;
+    border-width: 15px;
+}
+
+p.address {
+    font-style: italic;
+    font-size: 12px;
+    color: #004d00;
+}
+
+p.tagline {
+    text-decoration: underline;
+    font-size: 17px;
+    color: #004d00
+}
+
+
+
+.education {
+    background-color: #FAEDCE; /* Light Peach */
+    width: 100%; /* Full width for responsiveness */
+    max-width: 1250px; /* Max width to avoid overflow */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+    grid-template-rows: 1fr 2fr; /* Single row */
+    gap: 10px; /* Space between items */
+    border-radius: 10px;
+    padding: 10px; /* Optional padding for inner spacing */
+    text-align:center;
+    margin-left: 80px;
+}
+.education h2 {
+    grid-column: 1 / -1; /* Span all columns */
+    margin: 0; /* Remove default margins */
+    font-weight: 400; /* Adjust size as needed */
+    text-align: center; /* Ensure text is centered */
+    color: brown;
+}
+
+.institution {
+    grid-column: 2; /* Center horizontally */
+    grid-row: 2;
+    background-color: #CCD5AE; /* Light Olive Green */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.gpa {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #CCD5AE; /* Light Olive Green */
+    text-align: center;
+    border-radius: 10px;
+}
+.classes {
+    grid-column: 3;
+    grid-row: 2;
+    background-color: #CCD5AE; /* Light Olive Green */
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+
+.honors {
+    text-indent: 10px;
+    background-color: #FAEDCE; /* Light Peach */
+    text-align: center;
+    width: 1250px; /* Max width to avoid overflow */
+    border-radius: 10px;
+    
+    margin-left: 80px;
+}
+
+.skills {
+    background-color: #FAEDCE; /* Light Peach */
+    text-indent: 10px;
+    width: 1250px; /* Max width to avoid overflow */
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+.leadership {
+    background-color: #FAEDCE; /* Light Peach */
+    text-indent: 10px;
+    width: 1250px; /* Max width to avoid overflow */
+    border-radius: 10px;
+    
+    margin-left: 80px;
+}
+
+h2 {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: brown;
+    text-align: center;
+}
+
+/* Apply grid layout to description lists */
+dl {
+    display: grid;
+    grid-template-rows: 1fr 2fr; 
+    gap: 10px;
+    text-align: center;
+}
+
+dt {
+    font-weight: bold;
+    text-align: center;
+    color: #CCD5AE; /* Light Olive Green */
+}
+
+dd {
+    margin: 0;
+    color: #004d00
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 450px;
+}
+
+.skills ul li {
+    padding: 10px;
+    color: #004d00
+}
+
+a {
+    color: #007bff; /* Default color */
+    text-decoration: none; /* Remove the underline */
+    font-weight: normal; /* Optional: Adjust the font weight */
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Style the hover state of links */
+a:hover {
+    color: #ff6347; /* Change color on hover */
+    background-color: #FAEDCE; /* Light Peach */
+    text-decoration: underline; /* Optional: Re-add the underline on hover */
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+}
+
+.project {
+    background-color: #FEFAE0; /* Off-White */
+    padding: 20px; /* Padding inside the card */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    border: 1px solid #E0E5B6; /* Pale Yellow */
+    text-align: center; /* Center text inside the card */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    color:#004d00;
+}
+
+.project img {
+    border-radius: 10px;
+}
+h3 {
+    color: brown;
+}
+/* Hover effect for the card */
+.project:hover {
+    transform: translateY(-10px); /* Slight lift effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow effect */
+}
+
+.contact-title {
+    text-align: center;
+}
+/* Style for the one-column layout */
+.one-col {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    max-width: 600px; /* Maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Padding around the form */
+    background-color: #FEFAE0; /* Off-White */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+/* Style for input and textarea elements */
+.one-col input[type="text"],
+.one-col input[type="email"],
+.one-col textarea {
+    width: 100%; /* Full width within the form */
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 15px; /* Space below each input field */
+    border: 1px solid #E0E5B6; /* Pale Yellow */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Style for the submit button */
+.one-col input[type="submit"] {
+    background-color: #007BFF; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.one-col input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+footer {
+    background-color: #E0E5B6; /* Pale Yellow */
+    border-top: 2px solid #CCD5AE; /* Light Olive Green */
+    display: flex;
+    justify-content: center;
+    margin-top: 200px; /* Adjust as needed */
+    padding: 20px; /* Optional: Adds padding inside the footer */
+}
+
