@@ -45,7 +45,7 @@ h1 {
 .splash img {
     border-color: black;
     border-style: groove;
-    border-radius: 10px 100px;
+    border-radius: 10px;
     
     border-width: 15px;
 }
