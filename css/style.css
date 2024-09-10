@@ -115,7 +115,7 @@ p.tagline {
     text-indent: 10px;
     background-color: #FAEDCE; /* Light Peach */
     text-align: center;
-    width: 1250px; /* Max width to avoid overflow */
+    width: 1270px; /* Max width to avoid overflow */
     border-radius: 10px;
     
     margin-left: 80px;
@@ -124,7 +124,7 @@ p.tagline {
 .skills {
     background-color: #FAEDCE; /* Light Peach */
     text-indent: 10px;
-    width: 1250px; /* Max width to avoid overflow */
+    width: 1270px; /* Max width to avoid overflow */
     border-radius: 10px;
     margin-left: 80px;
 }
@@ -132,7 +132,7 @@ p.tagline {
 .leadership {
     background-color: #FAEDCE; /* Light Peach */
     text-indent: 10px;
-    width: 1250px; /* Max width to avoid overflow */
+    width: 1270px; /* Max width to avoid overflow */
     border-radius: 10px;
     
     margin-left: 80px;
