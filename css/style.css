@@ -17,15 +17,16 @@ nav {
 }
 
 .splash {
-    height: 50vh;
-    width: 140vh;
+    height: 50%;
+    width: 80%;
     background-color: #FAEDCE; /* Light Peach */
     color: black;
+
     
     text-align: center;
     border-radius: 20px;
     border-color: transparent;
-    margin-left: 175px;
+    margin: 0 auto;
 }
 
 hr {
@@ -34,6 +35,7 @@ hr {
     border-width:2px;
     color: #CCD5AE; /* Light Olive Green */
 }
+
 h1 {
     font-family: "Playwrite CU", cursive;
     font-optical-sizing: auto;
@@ -166,7 +168,7 @@ dd {
 }
 
 .skills ul {
-    list-style-type: none;
+    list-style-type: disc;
     padding-left: 450px;
 }
 
@@ -189,7 +191,7 @@ a:hover {
     text-decoration: underline; /* Optional: Re-add the underline on hover */
 }
 
-.three-col {
+.threecol {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
